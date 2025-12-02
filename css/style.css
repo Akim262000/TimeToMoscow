@@ -1,0 +1,43 @@
+.bg-white {
+    background-image: url(../images/548bf35cda18381a0a6195762d638cae.gif);
+}
+
+.br-24 {
+    border-radius: 24px;
+}
+
+.font-60 {
+    font-size: 60px;
+}
+
+.font-48 {
+    font-size: 48px;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.timer {
+    background-image: url(../images/we.jpg);
+    background-position: center;
+    background-size: 100px;
+    min-height: 100vh;       /* занимает всю высоту окна */
+    font-family: "Story Script", sans-serif;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width:576px) {
+    .font-60 {
+        font-size: 40px;
+    }
+    
+    .font-48 {
+        font-size: 32px;
+    }
+}

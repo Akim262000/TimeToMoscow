@@ -36,7 +36,7 @@ function getDayWord(num) {
 
 function updateCountdown() {
     // Укажите вашу целевую дату и время здесь
-    const targetDate = new Date(2025, 11, 31, 12, 09, 0); // 28 ноября 2025, 14:30
+    const targetDate = new Date(2025, 11, 31, 07, 30, 0); // 28 ноября 2025, 14:30
     const now = new Date();
 
     let diff = targetDate - now;
@@ -70,4 +70,5 @@ function updateCountdown() {
 // Обновляем каждую секунду
 setInterval(updateCountdown, 1000);
 // Также вызываем сразу для отображения
+
 updateCountdown();
